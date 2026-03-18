@@ -1,0 +1,73 @@
+# Cricket Fantasy Agent - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Dependencies
+langchain>=1.2.7                      # LangChain framework for AI agents
+langchain-groq>=1.1.1                 # Groq integration for LangChain
+langchain-tavily>=0.2.17              # Tavily search integration
+langchain-google-genai>=0.0.1         # Google Generative AI (optional)
+
+# API & HTTP
+requests>=2.31.0                      # HTTP client
+python-dotenv>=1.2.1                  # Environment variable management
+
+# Job Scheduling
+schedule>=1.2.0                       # Simple job scheduling
+
+# Data Processing
+pandas>=2.1.0                         # Data manipulation (optional, for analysis)
+
+# Utilities
+typing-extensions>=4.8.0              # Extended typing support
+pydantic>=2.0.0                       # Data validation
+
+# Development Dependencies (optional)
+# Uncomment for development:
+# pytest>=7.4.0                       # Testing framework
+# pytest-cov>=4.1.0                   # Test coverage
+# black>=23.9.0                       # Code formatter
+# flake8>=6.1.0                       # Linter
+# mypy>=1.5.0                         # Type checker
+# sphinx>=7.2.0                       # Documentation generator
+# jupyter>=1.0.0                      # Interactive notebooks
+# ipython>=8.15.0                     # Enhanced Python shell
+
+# ============================================================================
+# API KEY REQUIREMENTS
+# ============================================================================
+# The following services need API keys (added to .env):
+#
+# 1. Groq (LLM Provider)
+#    - Get key at: https://console.groq.com/keys
+#    - Free tier available
+#
+# 2. Tavily Search API
+#    - Get key at: https://tavily.com
+#    - Free tier available
+#
+# 3. RapidAPI Cricbuzz Cricket
+#    - Get key at: https://rapidapi.com/cricapi/api/cricbuzz-cricket
+#    - Free tier ~100 requests/day
+#
+# 4. Visual Crossing Weather API (optional)
+#    - Get key at: https://www.visualcrossing.com
+#    - Free tier 1000 calls/day
+#
+# 5. Google Generative AI (optional alternative)
+#    - Get key at: https://makersuite.google.com/app/apikey
+#
+# ============================================================================
+# INSTALL OPTIONS
+# ============================================================================
+#
+# Standard installation:
+#   pip install -r requirements.txt
+#
+# With development tools:
+#   pip install -r requirements.txt
+#   pip install pytest black flake8 mypy jupyter
+#
+# Using UV (faster):
+#   uv pip install -r requirements.txt
+#
+# ============================================================================
