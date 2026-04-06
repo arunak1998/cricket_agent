@@ -60,6 +60,13 @@ The system automatically monitors cricket matches and invokes the appropriate ag
 - ✅ **Form Analysis**: Player momentum and performance metrics
 - ✅ **JSON Storage**: Persistent storage of matches and processing history
 
+### Scoring & Leaderboard (New)
+- ✅ **Fantasy Points Calculator**: 2026 T20 scoring rules (batting, bowling, bonuses)
+- ✅ **Live Scorecard Integration**: Auto-fetch match stats from Cricbuzz API
+- ✅ **Leaderboard Generation**: Rank users by total fantasy points
+- ✅ **Google Sheets Sync**: Auto-write leaderboard to Sheets for real-time tracking
+- ✅ **Validator Agent**: Audit and verify scoring accuracy
+
 ---
 
 ## 🛠 Technology Stack
@@ -80,6 +87,8 @@ The system automatically monitors cricket matches and invokes the appropriate ag
 - **python-dotenv** 1.2.1+ - Environment variable management
 - **requests** - HTTP client for API calls
 - **schedule** - Job scheduling for automated tasks
+- **gspread** - Google Sheets API integration
+- **oauth2client** - Google authentication
 - **json** - Data persistence
 - **logging** - Application logging
 
@@ -196,34 +205,54 @@ The system automatically monitors cricket matches and invokes the appropriate ag
 
 ```
 agent_project/
-├── main.py                          # Entry point
-├── pyproject.toml                   # Project metadata & dependencies
-├── README.md                        # Project documentation
+├── src/
+│   ├── __init__.py
+│   ├── config.py                    # Environment, LLM init, HEADERS, cache setup
+│   ├── cache.py                     # CacheManager class
+│   ├── models.py                    # Pydantic models (FantasyPlayer, FantasyTeam)
+│   ├── tools.py                     # All 5 tools (weather, venue, squads, stats, status)
+│   ├── agents/
+│   │   ├── __init__.py
+│   │   ├── eco_scout.py             # Eco-Scout agent (environment-based)
+│   │   ├── form_scout.py            # Form-Scout agent (form-based)
+│   │   └── supervisor.py            # Router, merge logic, delegation
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   └── sheets.py                # Google Sheets logging
+│   └── main.py                      # CLI entry point
+├── tests/
+│   └── test_agents.py               # Unit tests
+├── notebooks1/                      # Legacy notebooks (reference only)
+│   ├── agents.ipynb                 # Original implementation
+│   ├── cricket_cache.json           # Cached data
+│   └── daily_matches.json           # Today's matches
+├── main.py                          # Legacy entry point (use src/main.py)
+├── pyproject.toml                   # Dependencies & metadata
+├── README.md                        # This file
 ├── .env                             # Environment variables (create locally)
 ├── .env.example                     # Environment variables template
-├── notebooks1/
-│   ├── agents.ipynb                 # Main agent implementation
-│   ├── cricket_cache.json           # Cached player/venue data
-│   └── [other notebooks]
-├── daily_matches.json               # Today's matches (created at 7 AM)
-├── match_history.json               # Processed matches log
 ├── app.log                          # Application logs
+├── match_history.json               # Processed matches history
 └── .github/
-    └── prompts/
-        └── readme-blueprint-generator.prompt.md
+    └── copilot-instructions.md      # Development guidelines
 ```
 
-### Key Files
+### Module Organization
 
-- **agents.ipynb**: Core implementation
-  - Agent initialized with Groq LLM
-  - Tool definitions (venue, squads, player stats, weather)
-  - Scheduler functions
-  - Match monitoring and agent invocation
-
-- **main.py**: Entry point for CLI
-
-- **pyproject.toml**: Dependencies and project configuration
+| Module | Purpose | Key Components |
+|--------|---------|-----------------|
+| `config.py` | Initialization | LLM setup, HEADERS, cache instance |
+| `cache.py` | Caching | CacheManager class with persistence |
+| `models.py` | Data validation | FantasyPlayer, FantasyTeam Pydantic models |
+| `tools.py` | API integration | 5 cached tools for match data |
+| `agents/eco_scout.py` | Environment selection | Eco-Scout agent + snapshot logic |
+| `agents/form_scout.py` | Form selection | Form-Scout agent + player stats snapshot |
+| `agents/supervisor.py` | Orchestration | Router, merge agent, delegation tools |
+| `utils/sheets.py` | Logging | Google Sheets integration |
+| `utils/scoring.py` | NEW - Scoring | Fantasy points calculator (2026 rules) |
+| `utils/validator.py` | NEW - Leaderboard | Leaderboard auditor, ranking agent |
+| `main.py` | Entry point | CLI interface or scheduled runner |
+| `tests/` | Testing | Unit & integration tests |
 
 ---
 
@@ -719,6 +748,170 @@ Both agents produce exactly:
      "player_12345": {"name": "Player Name", "bat_form": [...]}
    }
    ```
+
+---
+
+## 🏆 Scoring & Leaderboard System
+
+### Fantasy Points Calculation (2026 T20 Rules)
+
+The leaderboard system (agent3.ipynb) calculates fantasy points for each player based on live match scorecard data.
+
+#### Batting Points
+| Event | Points |
+|-------|--------|
+| Each run scored | +1 |
+| Each four | +1 |
+| Each six | +2 |
+| 30+ runs | +4 |
+| 50+ runs | +8 |
+| 100+ runs | +16 |
+| Duck (0 runs) | -2 |
+| Strike Rate > 170% | +6 |
+| Strike Rate 150-170% | +4 |
+| Strike Rate 130-150% | +2 |
+| Strike Rate 60-70% | -2 |
+| Strike Rate 50-60% | -4 |
+| Strike Rate < 50% | -6 |
+
+#### Bowling Points
+| Event | Points |
+|-------|--------|
+| Each wicket | +25 |
+| LBW/Bowled victim | +8 |
+| 3 wickets | +4 |
+| 4 wickets | +8 |
+| 5+ wickets | +16 |
+| Each maiden over | +12 |
+| Economy < 5 | +6 |
+| Economy 5-6 | +4 |
+| Economy 6-7 | +2 |
+| Economy 10-11 | -2 |
+| Economy 11-12 | -4 |
+| Economy > 12 | -6 |
+
+### Leaderboard Workflow (Agent3.ipynb)
+
+#### 1. **Fetch Match Scorecard** - `fetch_match_stats(match_id: str)`
+```python
+# Input: Match ID (e.g., "1234567")
+# Calls: Cricbuzz API /mcenter/v1/{match_id}/scard
+# Returns: performance_map with each player's batting/bowling stats
+# Purpose: Get actual match performance for ALL players
+```
+
+**Data Structure Returned:**
+```python
+{
+  "player_id_1": {
+    "name": "Player Name",
+    "batting": {"runs": 45, "balls": 30, "sr": 150.0, "fours": 3, "sixes": 2},
+    "bowling": {"wickets": 2, "overs": 4.0, "econ": 6.5, "maidens": 1}
+  }
+}
+```
+
+#### 2. **Read User Selections** - `get_user_selections_from_sheet(match_id: str)`
+```python
+# Input: Match ID
+# Reads: Google Sheet "Agent_Response" → filters by match_id
+# Parsing: Handles JSON, Pydantic repr, and Markdown table formats
+# Returns: List of teams with player selections
+# Purpose: Get XI selected by each user/agent
+```
+
+**Returns Format:**
+```python
+[
+  {
+    "user": "player_id_123",
+    "agent": "Form-Scout",
+    "players": [
+      {"id": "player_1", "name": "Player Name 1"},
+      {"id": "player_2", "name": "Player Name 2"},
+      ...
+    ]
+  }
+]
+```
+
+#### 3. **Calculate Points** - `calculate_fantasy_points_2026(p_data: dict) -> int`
+```python
+# Input: Player performance dict (batting + bowling stats)
+# Logic: Apply all batting and bowling rules above
+# Returns: Total fantasy points for that player
+# Purpose: Score individual player performance
+```
+
+#### 4. **Generate Leaderboard** - `calculate_leaderboard(match_id: str) -> str`
+```python
+# Master Tool - Orchestrates all steps:
+# 1. fetch_match_stats() → Get actual scorecard
+# 2. get_user_selections_from_sheet() → Get selected teams
+# 3. For each player in each team:
+#    - fetch points using calculate_fantasy_points_2026()
+#    - accumulate total
+# 4. Sort all users by total score DESC
+# 5. Return formatted leaderboard
+```
+
+**Leaderboard Output Example:**
+```
+═══════════════════════════════════════════════════════════
+🏆  FANTASY LEADERBOARD (Match ID: 1234567)  🏆
+═══════════════════════════════════════════════════════════
+Rank  | Player ID        | Agent        | Score
+─────────────────────────────────────────────────────────
+🥇    | player_001       | Form-Scout   | 412
+🥈    | player_002       | Eco-Scout    | 398
+🥉    | player_003       | Form-Scout   | 387
+4     | player_004       | Overall-Scout| 375
+```
+
+### Validator Agent (Leaderboard Auditor)
+
+**Purpose**: Audit and verify leaderboard accuracy
+
+**Validator Workflow:**
+1. **Input**: User query with match_id
+2. **Tool Call**: Invokes `calculate_leaderboard(match_id)` only
+3. **Parsing**: Extracts structured JSON from raw response
+4. **Output Format**: LeaderboardOutput (Pydantic model)
+   ```python
+   class PlayerRank(BaseModel):
+       rank: int
+       player_id: str
+       agent: str
+       score: int
+
+   class LeaderboardOutput(BaseModel):
+       rankings: List[PlayerRank]
+   ```
+5. **Write to Sheet**: Auto-updates "Validator_Agent" sheet in Google Sheets
+
+**System Constraints:**
+- Tool-only execution (no LLM reasoning)
+- Never invents or estimates scores
+- Reads live scoreboard data only
+- Prevents duplicate agents from inflating scores
+
+### Google Sheets Integration
+
+**Sheets Used:**
+1. **Agent_Response** - Stores user team selections
+   - Columns: Player_id | agent_type | response (JSON) | Match_id
+
+2. **Validator_Agent** - Leaderboard output
+   - Columns: Rank | Player_ID | Agent | Score
+   - Auto-cleared and updated after each match
+
+**Sync Process:**
+```python
+# After leaderboard calculation:
+validator_sheet = spreadsheet.worksheet("Validator_Agent")
+validator_sheet.batch_clear(["A2:D100"])  # Clear old data
+validator_sheet.insert_rows(leaderboard_rows, 2)  # Write new rankings
+```
 
 ---
 

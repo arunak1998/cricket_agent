@@ -1,0 +1,1127 @@
+{
+    "squad_match_149721": {
+        "data": {
+            "match_id": "149721",
+            "teams": {
+                "team1": {
+                    "name": "Royal Challengers Bengaluru",
+                    "id": 59,
+                    "players": [
+                        {
+                            "id": "10479",
+                            "name": "Philip Salt",
+                            "role": "WK-Batsman"
+                        },
+                        {
+                            "id": "1413",
+                            "name": "Virat Kohli",
+                            "role": "Batsman"
+                        },
+                        {
+                            "id": "13088",
+                            "name": "Devdutt Padikkal",
+                            "role": "Batsman"
+                        },
+                        {
+                            "id": "10636",
+                            "name": "Rajat Patidar",
+                            "role": "Batsman"
+                        },
+                        {
+                            "id": "10214",
+                            "name": "Jitesh Sharma",
+                            "role": "WK-Batsman"
+                        },
+                        {
+                            "id": "13169",
+                            "name": "Tim David",
+                            "role": "Batsman"
+                        },
+                        {
+                            "id": "13646",
+                            "name": "Romario Shepherd",
+                            "role": "Bowling Allrounder"
+                        },
+                        {
+                            "id": "11311",
+                            "name": "Krunal Pandya",
+                            "role": "Batting Allrounder"
+                        },
+                        {
+                            "id": "1726",
+                            "name": "Bhuvneshwar Kumar",
+                            "role": "Bowler"
+                        },
+                        {
+                            "id": "1447073",
+                            "name": "Abhinandan Singh",
+                            "role": "Bowler"
+                        },
+                        {
+                            "id": "8554",
+                            "name": "Jacob Duffy",
+                            "role": "Bowler"
+                        }
+                    ]
+                },
+                "team2": {
+                    "name": "Chennai Super Kings",
+                    "id": 58,
+                    "players": [
+                        {
+                            "id": "8271",
+                            "name": "Sanju Samson",
+                            "role": "WK-Batsman"
+                        },
+                        {
+                            "id": "11813",
+                            "name": "Ruturaj Gaikwad",
+                            "role": "Batsman"
+                        },
+                        {
+                            "id": "1431163",
+                            "name": "Ayush Mhatre",
+                            "role": "Batsman"
+                        },
+                        {
+                            "id": "9429",
+                            "name": "Sarfaraz Khan",
+                            "role": "Batsman"
+                        },
+                        {
+                            "id": "11195",
+                            "name": "Shivam Dube",
+                            "role": "Batting Allrounder"
+                        },
+                        {
+                            "id": "51417",
+                            "name": "Prashant Veer",
+                            "role": "Bowling Allrounder"
+                        },
+                        {
+                            "id": "8512",
+                            "name": "Jamie Overton",
+                            "role": "Bowling Allrounder"
+                        },
+                        {
+                            "id": "15452",
+                            "name": "Noor Ahmad",
+                            "role": "Bowler"
+                        },
+                        {
+                            "id": "14598",
+                            "name": "Anshul Kamboj",
+                            "role": "Bowling Allrounder"
+                        },
+                        {
+                            "id": "9067",
+                            "name": "Matt Henry",
+                            "role": "Bowler"
+                        },
+                        {
+                            "id": "10952",
+                            "name": "Khaleel Ahmed",
+                            "role": "Bowler"
+                        }
+                    ]
+                }
+            }
+        },
+        "timestamp": "2026-04-05T14:22:47.155744"
+    },
+    "player_10479": {
+        "data": {
+            "id": "10479",
+            "name": "Philip Salt",
+            "role": "WK-Batsman",
+            "bat_form": [
+                {
+                    "runs": 8,
+                    "balls": 7,
+                    "sr": 114.29,
+                    "status": "Out",
+                    "score_display": "8"
+                },
+                {
+                    "runs": 5,
+                    "balls": 3,
+                    "sr": 166.67,
+                    "status": "Out",
+                    "score_display": "5"
+                },
+                {
+                    "runs": 2,
+                    "balls": 4,
+                    "sr": 50.0,
+                    "status": "Out",
+                    "score_display": "2"
+                },
+                {
+                    "runs": 0,
+                    "balls": 1,
+                    "sr": 0.0,
+                    "status": "Out",
+                    "score_display": "0"
+                },
+                {
+                    "runs": 62,
+                    "balls": 40,
+                    "sr": 155.0,
+                    "status": "Out",
+                    "score_display": "62"
+                }
+            ],
+            "bowl_form": []
+        },
+        "timestamp": "2026-04-05T14:23:05.455661"
+    },
+    "player_1413": {
+        "data": {
+            "id": "1413",
+            "name": "Virat Kohli",
+            "role": "Batsman",
+            "bat_form": [
+                {
+                    "runs": 69,
+                    "balls": 38,
+                    "sr": 181.58,
+                    "status": "Not Out",
+                    "score_display": "69*"
+                }
+            ],
+            "bowl_form": [
+                {
+                    "wkts": 0,
+                    "avg": 6,
+                    "match_figure": "0-6"
+                }
+            ]
+        },
+        "timestamp": "2026-04-05T14:23:19.256588"
+    },
+    "player_13088": {
+        "data": {
+            "id": "13088",
+            "name": "Devdutt Padikkal",
+            "role": "Batsman",
+            "bat_form": [
+                {
+                    "runs": 61,
+                    "balls": 26,
+                    "sr": 234.62,
+                    "status": "Out",
+                    "score_display": "61"
+                },
+                {
+                    "runs": 17,
+                    "balls": 15,
+                    "sr": 113.33,
+                    "status": "Out",
+                    "score_display": "17"
+                },
+                {
+                    "runs": 0,
+                    "balls": 2,
+                    "sr": 0.0,
+                    "status": "Out",
+                    "score_display": "0"
+                },
+                {
+                    "runs": 50,
+                    "balls": 27,
+                    "sr": 185.19,
+                    "status": "Out",
+                    "score_display": "50"
+                },
+                {
+                    "runs": 61,
+                    "balls": 35,
+                    "sr": 174.29,
+                    "status": "Out",
+                    "score_display": "61"
+                }
+            ],
+            "bowl_form": []
+        },
+        "timestamp": "2026-04-05T14:23:30.057242"
+    },
+    "player_10636": {
+        "data": {
+            "id": "10636",
+            "name": "Rajat Patidar",
+            "role": "Batsman",
+            "bat_form": [
+                {
+                    "runs": 31,
+                    "balls": 12,
+                    "sr": 258.33,
+                    "status": "Out",
+                    "score_display": "31"
+                },
+                {
+                    "runs": 26,
+                    "balls": 16,
+                    "sr": 162.5,
+                    "status": "Out",
+                    "score_display": "26"
+                },
+                {
+                    "runs": 15,
+                    "balls": 8,
+                    "sr": 187.5,
+                    "status": "Not Out",
+                    "score_display": "15*"
+                },
+                {
+                    "runs": 14,
+                    "balls": 7,
+                    "sr": 200.0,
+                    "status": "Out",
+                    "score_display": "14"
+                },
+                {
+                    "runs": 18,
+                    "balls": 16,
+                    "sr": 112.5,
+                    "status": "Out",
+                    "score_display": "18"
+                }
+            ],
+            "bowl_form": []
+        },
+        "timestamp": "2026-04-05T14:23:41.255345"
+    },
+    "player_10214": {
+        "data": {
+            "id": "10214",
+            "name": "Jitesh Sharma",
+            "role": "WK-Batsman",
+            "bat_form": [
+                {
+                    "runs": 0,
+                    "balls": 1,
+                    "sr": 0.0,
+                    "status": "Out",
+                    "score_display": "0"
+                },
+                {
+                    "runs": 27,
+                    "balls": 17,
+                    "sr": 158.82,
+                    "status": "Out",
+                    "score_display": "27"
+                },
+                {
+                    "runs": 10,
+                    "balls": 5,
+                    "sr": 200.0,
+                    "status": "Not Out",
+                    "score_display": "10*"
+                }
+            ],
+            "bowl_form": []
+        },
+        "timestamp": "2026-04-05T14:23:51.355378"
+    },
+    "player_13169": {
+        "data": {
+            "id": "13169",
+            "name": "Tim David",
+            "role": "Batsman",
+            "bat_form": [
+                {
+                    "runs": 16,
+                    "balls": 10,
+                    "sr": 160.0,
+                    "status": "Not Out",
+                    "score_display": "16*"
+                },
+                {
+                    "runs": 6,
+                    "balls": 5,
+                    "sr": 120.0,
+                    "status": "Out",
+                    "score_display": "6"
+                },
+                {
+                    "runs": 0,
+                    "balls": 2,
+                    "sr": 0.0,
+                    "status": "Out",
+                    "score_display": "0"
+                },
+                {
+                    "runs": 14,
+                    "balls": 9,
+                    "sr": 155.56,
+                    "status": "Out",
+                    "score_display": "14"
+                }
+            ],
+            "bowl_form": [
+                {
+                    "wkts": 1,
+                    "avg": 18.0,
+                    "match_figure": "1-18"
+                },
+                {
+                    "wkts": 1,
+                    "avg": 35.0,
+                    "match_figure": "1-35"
+                },
+                {
+                    "wkts": 1,
+                    "avg": 18.0,
+                    "match_figure": "1-18"
+                },
+                {
+                    "wkts": 1,
+                    "avg": 33.0,
+                    "match_figure": "1-33"
+                }
+            ]
+        },
+        "timestamp": "2026-04-05T14:24:03.655475"
+    },
+    "player_13646": {
+        "data": {
+            "id": "13646",
+            "name": "Romario Shepherd",
+            "role": "Bowling Allrounder",
+            "bat_form": [
+                {
+                    "runs": 52,
+                    "balls": 37,
+                    "sr": 140.54,
+                    "status": "Not Out",
+                    "score_display": "52*"
+                },
+                {
+                    "runs": 21,
+                    "balls": 10,
+                    "sr": 210.0,
+                    "status": "Out",
+                    "score_display": "21"
+                },
+                {
+                    "runs": 1,
+                    "balls": 1,
+                    "sr": 100.0,
+                    "status": "Not Out",
+                    "score_display": "1*"
+                }
+            ],
+            "bowl_form": [
+                {
+                    "wkts": 3,
+                    "avg": 18.0,
+                    "match_figure": "3-54"
+                },
+                {
+                    "wkts": 0,
+                    "avg": 34,
+                    "match_figure": "0-34"
+                },
+                {
+                    "wkts": 0,
+                    "avg": 22,
+                    "match_figure": "0-22"
+                },
+                {
+                    "wkts": 1,
+                    "avg": 7.0,
+                    "match_figure": "1-7"
+                },
+                {
+                    "wkts": 5,
+                    "avg": 4.0,
+                    "match_figure": "5-20"
+                }
+            ]
+        },
+        "timestamp": "2026-04-05T14:24:16.755003"
+    },
+    "player_11311": {
+        "data": {
+            "id": "11311",
+            "name": "Krunal Pandya",
+            "role": "Batting Allrounder",
+            "bat_form": [
+                {
+                    "runs": 4,
+                    "balls": 5,
+                    "sr": 80.0,
+                    "status": "Out",
+                    "score_display": "4"
+                },
+                {
+                    "runs": 8,
+                    "balls": 6,
+                    "sr": 133.33,
+                    "status": "Out",
+                    "score_display": "8"
+                }
+            ],
+            "bowl_form": [
+                {
+                    "wkts": 0,
+                    "avg": 26,
+                    "match_figure": "0-26"
+                },
+                {
+                    "wkts": 2,
+                    "avg": 8.5,
+                    "match_figure": "2-17"
+                },
+                {
+                    "wkts": 0,
+                    "avg": 10,
+                    "match_figure": "0-10"
+                },
+                {
+                    "wkts": 0,
+                    "avg": 14,
+                    "match_figure": "0-14"
+                },
+                {
+                    "wkts": 1,
+                    "avg": 38.0,
+                    "match_figure": "1-38"
+                }
+            ]
+        },
+        "timestamp": "2026-04-05T14:24:28.655321"
+    },
+    "player_1726": {
+        "data": {
+            "id": "1726",
+            "name": "Bhuvneshwar Kumar",
+            "role": "Bowler",
+            "bat_form": [
+                {
+                    "runs": 1,
+                    "balls": 2,
+                    "sr": 50.0,
+                    "status": "Out",
+                    "score_display": "1"
+                },
+                {
+                    "runs": 3,
+                    "balls": 2,
+                    "sr": 150.0,
+                    "status": "Out",
+                    "score_display": "3"
+                }
+            ],
+            "bowl_form": [
+                {
+                    "wkts": 1,
+                    "avg": 31.0,
+                    "match_figure": "1-31"
+                },
+                {
+                    "wkts": 2,
+                    "avg": 19.0,
+                    "match_figure": "2-38"
+                },
+                {
+                    "wkts": 1,
+                    "avg": 17.0,
+                    "match_figure": "1-17"
+                },
+                {
+                    "wkts": 1,
+                    "avg": 46.0,
+                    "match_figure": "1-46"
+                },
+                {
+                    "wkts": 1,
+                    "avg": 43.0,
+                    "match_figure": "1-43"
+                }
+            ]
+        },
+        "timestamp": "2026-04-05T14:24:40.055084"
+    },
+    "player_1447073": {
+        "data": {
+            "id": "1447073",
+            "name": "Abhinandan Singh",
+            "role": "Bowler",
+            "bat_form": [],
+            "bowl_form": [
+                {
+                    "wkts": 1,
+                    "avg": 38.0,
+                    "match_figure": "1-38"
+                }
+            ]
+        },
+        "timestamp": "2026-04-05T14:24:53.157632"
+    },
+    "player_8554": {
+        "data": {
+            "id": "8554",
+            "name": "Jacob Duffy",
+            "role": "Bowler",
+            "bat_form": [
+                {
+                    "runs": 3,
+                    "balls": 5,
+                    "sr": 60.0,
+                    "status": "Out",
+                    "score_display": "3"
+                }
+            ],
+            "bowl_form": [
+                {
+                    "wkts": 3,
+                    "avg": 7.33,
+                    "match_figure": "3-22"
+                },
+                {
+                    "wkts": 0,
+                    "avg": 42,
+                    "match_figure": "0-42"
+                },
+                {
+                    "wkts": 1,
+                    "avg": 25.0,
+                    "match_figure": "1-25"
+                },
+                {
+                    "wkts": 0,
+                    "avg": 50,
+                    "match_figure": "0-50"
+                },
+                {
+                    "wkts": 1,
+                    "avg": 16.0,
+                    "match_figure": "1-16"
+                }
+            ]
+        },
+        "timestamp": "2026-04-05T14:25:07.655163"
+    },
+    "player_8271": {
+        "data": {
+            "id": "8271",
+            "name": "Sanju Samson",
+            "role": "WK-Batsman",
+            "bat_form": [
+                {
+                    "runs": 7,
+                    "balls": 7,
+                    "sr": 100.0,
+                    "status": "Out",
+                    "score_display": "7"
+                },
+                {
+                    "runs": 6,
+                    "balls": 7,
+                    "sr": 85.71,
+                    "status": "Out",
+                    "score_display": "6"
+                },
+                {
+                    "runs": 89,
+                    "balls": 46,
+                    "sr": 193.48,
+                    "status": "Out",
+                    "score_display": "89"
+                },
+                {
+                    "runs": 89,
+                    "balls": 42,
+                    "sr": 211.9,
+                    "status": "Out",
+                    "score_display": "89"
+                },
+                {
+                    "runs": 97,
+                    "balls": 50,
+                    "sr": 194.0,
+                    "status": "Not Out",
+                    "score_display": "97*"
+                }
+            ],
+            "bowl_form": []
+        },
+        "timestamp": "2026-04-05T14:25:19.056515"
+    },
+    "player_11813": {
+        "data": {
+            "id": "11813",
+            "name": "Ruturaj Gaikwad",
+            "role": "Batsman",
+            "bat_form": [
+                {
+                    "runs": 28,
+                    "balls": 22,
+                    "sr": 127.27,
+                    "status": "Out",
+                    "score_display": "28"
+                },
+                {
+                    "runs": 6,
+                    "balls": 11,
+                    "sr": 54.55,
+                    "status": "Out",
+                    "score_display": "6"
+                }
+            ],
+            "bowl_form": []
+        },
+        "timestamp": "2026-04-05T14:25:30.583353"
+    },
+    "player_1431163": {
+        "data": {
+            "id": "1431163",
+            "name": "Ayush Mhatre",
+            "role": "Batsman",
+            "bat_form": [
+                {
+                    "runs": 73,
+                    "balls": 43,
+                    "sr": 169.77,
+                    "status": "Out",
+                    "score_display": "73"
+                },
+                {
+                    "runs": 0,
+                    "balls": 1,
+                    "sr": 0.0,
+                    "status": "Out",
+                    "score_display": "0"
+                },
+                {
+                    "runs": 34,
+                    "balls": 17,
+                    "sr": 200.0,
+                    "status": "Out",
+                    "score_display": "34"
+                },
+                {
+                    "runs": 43,
+                    "balls": 20,
+                    "sr": 215.0,
+                    "status": "Out",
+                    "score_display": "43"
+                },
+                {
+                    "runs": 0,
+                    "balls": 2,
+                    "sr": 0.0,
+                    "status": "Out",
+                    "score_display": "0"
+                }
+            ],
+            "bowl_form": []
+        },
+        "timestamp": "2026-04-05T14:25:42.255390"
+    },
+    "player_9429": {
+        "data": {
+            "id": "9429",
+            "name": "Sarfaraz Khan",
+            "role": "Batsman",
+            "bat_form": [
+                {
+                    "runs": 32,
+                    "balls": 12,
+                    "sr": 266.67,
+                    "status": "Out",
+                    "score_display": "32"
+                },
+                {
+                    "runs": 17,
+                    "balls": 12,
+                    "sr": 141.67,
+                    "status": "Out",
+                    "score_display": "17"
+                }
+            ],
+            "bowl_form": [
+                {
+                    "wkts": 0,
+                    "avg": 6,
+                    "match_figure": "0-6"
+                }
+            ]
+        },
+        "timestamp": "2026-04-05T14:25:53.655365"
+    },
+    "player_11195": {
+        "data": {
+            "id": "11195",
+            "name": "Shivam Dube",
+            "role": "Batting Allrounder",
+            "bat_form": [
+                {
+                    "runs": 45,
+                    "balls": 27,
+                    "sr": 166.67,
+                    "status": "Not Out",
+                    "score_display": "45*"
+                },
+                {
+                    "runs": 6,
+                    "balls": 4,
+                    "sr": 150.0,
+                    "status": "Out",
+                    "score_display": "6"
+                },
+                {
+                    "runs": 26,
+                    "balls": 8,
+                    "sr": 325.0,
+                    "status": "Not Out",
+                    "score_display": "26*"
+                },
+                {
+                    "runs": 43,
+                    "balls": 25,
+                    "sr": 172.0,
+                    "status": "Out",
+                    "score_display": "43"
+                },
+                {
+                    "runs": 8,
+                    "balls": 4,
+                    "sr": 200.0,
+                    "status": "Not Out",
+                    "score_display": "8*"
+                }
+            ],
+            "bowl_form": [
+                {
+                    "wkts": 0,
+                    "avg": 22,
+                    "match_figure": "0-22"
+                },
+                {
+                    "wkts": 1,
+                    "avg": 46.0,
+                    "match_figure": "1-46"
+                },
+                {
+                    "wkts": 1,
+                    "avg": 32.0,
+                    "match_figure": "1-32"
+                },
+                {
+                    "wkts": 2,
+                    "avg": 17.5,
+                    "match_figure": "2-35"
+                },
+                {
+                    "wkts": 1,
+                    "avg": 11.0,
+                    "match_figure": "1-11"
+                }
+            ]
+        },
+        "timestamp": "2026-04-05T14:26:06.055144"
+    },
+    "player_51417": {
+        "data": {
+            "id": "51417",
+            "name": "Prashant Veer",
+            "role": "Bowling Allrounder",
+            "bat_form": [
+                {
+                    "runs": 6,
+                    "balls": 7,
+                    "sr": 85.71,
+                    "status": "Not Out",
+                    "score_display": "6*"
+                }
+            ],
+            "bowl_form": []
+        },
+        "timestamp": "2026-04-05T14:26:17.955465"
+    },
+    "player_8512": {
+        "data": {
+            "id": "8512",
+            "name": "Jamie Overton",
+            "role": "Bowling Allrounder",
+            "bat_form": [
+                {
+                    "runs": 43,
+                    "balls": 36,
+                    "sr": 119.44,
+                    "status": "Out",
+                    "score_display": "43"
+                },
+                {
+                    "runs": 2,
+                    "balls": 3,
+                    "sr": 66.67,
+                    "status": "Not Out",
+                    "score_display": "2*"
+                },
+                {
+                    "runs": 0,
+                    "balls": 3,
+                    "sr": 0.0,
+                    "status": "Out",
+                    "score_display": "0"
+                },
+                {
+                    "runs": 10,
+                    "balls": 10,
+                    "sr": 100.0,
+                    "status": "Not Out",
+                    "score_display": "10*"
+                },
+                {
+                    "runs": 15,
+                    "balls": 9,
+                    "sr": 166.67,
+                    "status": "Out",
+                    "score_display": "15"
+                }
+            ],
+            "bowl_form": [
+                {
+                    "wkts": 0,
+                    "avg": 14,
+                    "match_figure": "0-14"
+                },
+                {
+                    "wkts": 0,
+                    "avg": 36,
+                    "match_figure": "0-36"
+                },
+                {
+                    "wkts": 2,
+                    "avg": 13.0,
+                    "match_figure": "2-26"
+                },
+                {
+                    "wkts": 1,
+                    "avg": 13.0,
+                    "match_figure": "1-13"
+                },
+                {
+                    "wkts": 3,
+                    "avg": 6.0,
+                    "match_figure": "3-18"
+                }
+            ]
+        },
+        "timestamp": "2026-04-05T14:26:31.754897"
+    },
+    "player_15452": {
+        "data": {
+            "id": "15452",
+            "name": "Noor Ahmad",
+            "role": "Bowler",
+            "bat_form": [
+                {
+                    "runs": 1,
+                    "balls": 9,
+                    "sr": 11.11,
+                    "status": "Out",
+                    "score_display": "1"
+                },
+                {
+                    "runs": 15,
+                    "balls": 9,
+                    "sr": 166.67,
+                    "status": "Not Out",
+                    "score_display": "15*"
+                }
+            ],
+            "bowl_form": [
+                {
+                    "wkts": 0,
+                    "avg": 38,
+                    "match_figure": "0-38"
+                },
+                {
+                    "wkts": 0,
+                    "avg": 24,
+                    "match_figure": "0-24"
+                },
+                {
+                    "wkts": 0,
+                    "avg": 35,
+                    "match_figure": "0-35"
+                },
+                {
+                    "wkts": 0,
+                    "avg": 35,
+                    "match_figure": "0-35"
+                },
+                {
+                    "wkts": 0,
+                    "avg": 32,
+                    "match_figure": "0-32"
+                }
+            ]
+        },
+        "timestamp": "2026-04-05T14:26:46.056356"
+    },
+    "player_14598": {
+        "data": {
+            "id": "14598",
+            "name": "Anshul Kamboj",
+            "role": "Bowling Allrounder",
+            "bat_form": [
+                {
+                    "runs": 7,
+                    "balls": 10,
+                    "sr": 70.0,
+                    "status": "Not Out",
+                    "score_display": "7*"
+                },
+                {
+                    "runs": 5,
+                    "balls": 3,
+                    "sr": 166.67,
+                    "status": "Not Out",
+                    "score_display": "5*"
+                }
+            ],
+            "bowl_form": [
+                {
+                    "wkts": 2,
+                    "avg": 21.5,
+                    "match_figure": "2-43"
+                },
+                {
+                    "wkts": 2,
+                    "avg": 13.5,
+                    "match_figure": "2-27"
+                },
+                {
+                    "wkts": 3,
+                    "avg": 4.33,
+                    "match_figure": "3-13"
+                },
+                {
+                    "wkts": 1,
+                    "avg": 21.0,
+                    "match_figure": "1-21"
+                }
+            ]
+        },
+        "timestamp": "2026-04-05T14:26:56.854449"
+    },
+    "player_9067": {
+        "data": {
+            "id": "9067",
+            "name": "Matt Henry",
+            "role": "Bowler",
+            "bat_form": [
+                {
+                    "runs": 5,
+                    "balls": 7,
+                    "sr": 71.43,
+                    "status": "Out",
+                    "score_display": "5"
+                },
+                {
+                    "runs": 0,
+                    "balls": 1,
+                    "sr": 0.0,
+                    "status": "Out",
+                    "score_display": "0"
+                },
+                {
+                    "runs": 1,
+                    "balls": 1,
+                    "sr": 100.0,
+                    "status": "Not Out",
+                    "score_display": "1*"
+                }
+            ],
+            "bowl_form": [
+                {
+                    "wkts": 2,
+                    "avg": 27.0,
+                    "match_figure": "2-54"
+                },
+                {
+                    "wkts": 0,
+                    "avg": 40,
+                    "match_figure": "0-40"
+                },
+                {
+                    "wkts": 1,
+                    "avg": 49.0,
+                    "match_figure": "1-49"
+                },
+                {
+                    "wkts": 2,
+                    "avg": 17.0,
+                    "match_figure": "2-34"
+                },
+                {
+                    "wkts": 1,
+                    "avg": 19.0,
+                    "match_figure": "1-19"
+                }
+            ]
+        },
+        "timestamp": "2026-04-05T14:27:12.555395"
+    },
+    "player_10952": {
+        "data": {
+            "id": "10952",
+            "name": "Khaleel Ahmed",
+            "role": "Bowler",
+            "bat_form": [],
+            "bowl_form": [
+                {
+                    "wkts": 0,
+                    "avg": 28,
+                    "match_figure": "0-28"
+                },
+                {
+                    "wkts": 0,
+                    "avg": 17,
+                    "match_figure": "0-17"
+                },
+                {
+                    "wkts": 1,
+                    "avg": 17.0,
+                    "match_figure": "1-17"
+                },
+                {
+                    "wkts": 0,
+                    "avg": 35,
+                    "match_figure": "0-35"
+                },
+                {
+                    "wkts": 0,
+                    "avg": 14,
+                    "match_figure": "0-14"
+                }
+            ]
+        },
+        "timestamp": "2026-04-05T14:27:26.555401"
+    },
+    "form_match_context_royal_challengers_bengaluru_vs_chennai_super_kings": {
+        "data": {
+            "context": "\n=== FORM-SCOUT MATCH REASONING SNAPSHOT ===\nGenerated at: 2026-04-05 19:57:30 IST\nMatch: Royal Challengers Bengaluru vs Chennai Super Kings (ID: 149721)\n\n--- OFFICIAL SQUAD DATA ---\n{\n  \"match_id\": \"149721\",\n  \"teams\": {\n    \"team1\": {\n      \"name\": \"Royal Challengers Bengaluru\",\n      \"id\": 59,\n      \"players\": [\n        {\n          \"id\": \"10479\",\n          \"name\": \"Philip Salt\",\n          \"role\": \"WK-Batsman\"\n        },\n        {\n          \"id\": \"1413\",\n          \"name\": \"Virat Kohli\",\n          \"role\": \"Batsman\"\n        },\n        {\n          \"id\": \"13088\",\n          \"name\": \"Devdutt Padikkal\",\n          \"role\": \"Batsman\"\n        },\n        {\n          \"id\": \"10636\",\n          \"name\": \"Rajat Patidar\",\n          \"role\": \"Batsman\"\n        },\n        {\n          \"id\": \"10214\",\n          \"name\": \"Jitesh Sharma\",\n          \"role\": \"WK-Batsman\"\n        },\n        {\n          \"id\": \"13169\",\n          \"name\": \"Tim David\",\n          \"role\": \"Batsman\"\n        },\n        {\n          \"id\": \"13646\",\n          \"name\": \"Romario Shepherd\",\n          \"role\": \"Bowling Allrounder\"\n        },\n        {\n          \"id\": \"11311\",\n          \"name\": \"Krunal Pandya\",\n          \"role\": \"Batting Allrounder\"\n        },\n        {\n          \"id\": \"1726\",\n          \"name\": \"Bhuvneshwar Kumar\",\n          \"role\": \"Bowler\"\n        },\n        {\n          \"id\": \"1447073\",\n          \"name\": \"Abhinandan Singh\",\n          \"role\": \"Bowler\"\n        },\n        {\n          \"id\": \"8554\",\n          \"name\": \"Jacob Duffy\",\n          \"role\": \"Bowler\"\n        }\n      ]\n    },\n    \"team2\": {\n      \"name\": \"Chennai Super Kings\",\n      \"id\": 58,\n      \"players\": [\n        {\n          \"id\": \"8271\",\n          \"name\": \"Sanju Samson\",\n          \"role\": \"WK-Batsman\"\n        },\n        {\n          \"id\": \"11813\",\n          \"name\": \"Ruturaj Gaikwad\",\n          \"role\": \"Batsman\"\n        },\n        {\n          \"id\": \"1431163\",\n          \"name\": \"Ayush Mhatre\",\n          \"role\": \"Batsman\"\n        },\n        {\n          \"id\": \"9429\",\n          \"name\": \"Sarfaraz Khan\",\n          \"role\": \"Batsman\"\n        },\n        {\n          \"id\": \"11195\",\n          \"name\": \"Shivam Dube\",\n          \"role\": \"Batting Allrounder\"\n        },\n        {\n          \"id\": \"51417\",\n          \"name\": \"Prashant Veer\",\n          \"role\": \"Bowling Allrounder\"\n        },\n        {\n          \"id\": \"8512\",\n          \"name\": \"Jamie Overton\",\n          \"role\": \"Bowling Allrounder\"\n        },\n        {\n          \"id\": \"15452\",\n          \"name\": \"Noor Ahmad\",\n          \"role\": \"Bowler\"\n        },\n        {\n          \"id\": \"14598\",\n          \"name\": \"Anshul Kamboj\",\n          \"role\": \"Bowling Allrounder\"\n        },\n        {\n          \"id\": \"9067\",\n          \"name\": \"Matt Henry\",\n          \"role\": \"Bowler\"\n        },\n        {\n          \"id\": \"10952\",\n          \"name\": \"Khaleel Ahmed\",\n          \"role\": \"Bowler\"\n        }\n      ]\n    }\n  }\n}\n\n--- RECENT PLAYER PERFORMANCE (T20 FORM) ---\n[{'id': '10479', 'name': 'Philip Salt', 'role': 'WK-Batsman', 'bat_form': [{'runs': 8, 'balls': 7, 'sr': 114.29, 'status': 'Out', 'score_display': '8'}, {'runs': 5, 'balls': 3, 'sr': 166.67, 'status': 'Out', 'score_display': '5'}, {'runs': 2, 'balls': 4, 'sr': 50.0, 'status': 'Out', 'score_display': '2'}, {'runs': 0, 'balls': 1, 'sr': 0.0, 'status': 'Out', 'score_display': '0'}, {'runs': 62, 'balls': 40, 'sr': 155.0, 'status': 'Out', 'score_display': '62'}], 'bowl_form': []}, {'id': '1413', 'name': 'Virat Kohli', 'role': 'Batsman', 'bat_form': [{'runs': 69, 'balls': 38, 'sr': 181.58, 'status': 'Not Out', 'score_display': '69*'}], 'bowl_form': [{'wkts': 0, 'avg': 6, 'match_figure': '0-6'}]}, {'id': '13088', 'name': 'Devdutt Padikkal', 'role': 'Batsman', 'bat_form': [{'runs': 61, 'balls': 26, 'sr': 234.62, 'status': 'Out', 'score_display': '61'}, {'runs': 17, 'balls': 15, 'sr': 113.33, 'status': 'Out', 'score_display': '17'}, {'runs': 0, 'balls': 2, 'sr': 0.0, 'status': 'Out', 'score_display': '0'}, {'runs': 50, 'balls': 27, 'sr': 185.19, 'status': 'Out', 'score_display': '50'}, {'runs': 61, 'balls': 35, 'sr': 174.29, 'status': 'Out', 'score_display': '61'}], 'bowl_form': []}, {'id': '10636', 'name': 'Rajat Patidar', 'role': 'Batsman', 'bat_form': [{'runs': 31, 'balls': 12, 'sr': 258.33, 'status': 'Out', 'score_display': '31'}, {'runs': 26, 'balls': 16, 'sr': 162.5, 'status': 'Out', 'score_display': '26'}, {'runs': 15, 'balls': 8, 'sr': 187.5, 'status': 'Not Out', 'score_display': '15*'}, {'runs': 14, 'balls': 7, 'sr': 200.0, 'status': 'Out', 'score_display': '14'}, {'runs': 18, 'balls': 16, 'sr': 112.5, 'status': 'Out', 'score_display': '18'}], 'bowl_form': []}, {'id': '10214', 'name': 'Jitesh Sharma', 'role': 'WK-Batsman', 'bat_form': [{'runs': 0, 'balls': 1, 'sr': 0.0, 'status': 'Out', 'score_display': '0'}, {'runs': 27, 'balls': 17, 'sr': 158.82, 'status': 'Out', 'score_display': '27'}, {'runs': 10, 'balls': 5, 'sr': 200.0, 'status': 'Not Out', 'score_display': '10*'}], 'bowl_form': []}, {'id': '13169', 'name': 'Tim David', 'role': 'Batsman', 'bat_form': [{'runs': 16, 'balls': 10, 'sr': 160.0, 'status': 'Not Out', 'score_display': '16*'}, {'runs': 6, 'balls': 5, 'sr': 120.0, 'status': 'Out', 'score_display': '6'}, {'runs': 0, 'balls': 2, 'sr': 0.0, 'status': 'Out', 'score_display': '0'}, {'runs': 14, 'balls': 9, 'sr': 155.56, 'status': 'Out', 'score_display': '14'}], 'bowl_form': [{'wkts': 1, 'avg': 18.0, 'match_figure': '1-18'}, {'wkts': 1, 'avg': 35.0, 'match_figure': '1-35'}, {'wkts': 1, 'avg': 18.0, 'match_figure': '1-18'}, {'wkts': 1, 'avg': 33.0, 'match_figure': '1-33'}]}, {'id': '13646', 'name': 'Romario Shepherd', 'role': 'Bowling Allrounder', 'bat_form': [{'runs': 52, 'balls': 37, 'sr': 140.54, 'status': 'Not Out', 'score_display': '52*'}, {'runs': 21, 'balls': 10, 'sr': 210.0, 'status': 'Out', 'score_display': '21'}, {'runs': 1, 'balls': 1, 'sr': 100.0, 'status': 'Not Out', 'score_display': '1*'}], 'bowl_form': [{'wkts': 3, 'avg': 18.0, 'match_figure': '3-54'}, {'wkts': 0, 'avg': 34, 'match_figure': '0-34'}, {'wkts': 0, 'avg': 22, 'match_figure': '0-22'}, {'wkts': 1, 'avg': 7.0, 'match_figure': '1-7'}, {'wkts': 5, 'avg': 4.0, 'match_figure': '5-20'}]}, {'id': '11311', 'name': 'Krunal Pandya', 'role': 'Batting Allrounder', 'bat_form': [{'runs': 4, 'balls': 5, 'sr': 80.0, 'status': 'Out', 'score_display': '4'}, {'runs': 8, 'balls': 6, 'sr': 133.33, 'status': 'Out', 'score_display': '8'}], 'bowl_form': [{'wkts': 0, 'avg': 26, 'match_figure': '0-26'}, {'wkts': 2, 'avg': 8.5, 'match_figure': '2-17'}, {'wkts': 0, 'avg': 10, 'match_figure': '0-10'}, {'wkts': 0, 'avg': 14, 'match_figure': '0-14'}, {'wkts': 1, 'avg': 38.0, 'match_figure': '1-38'}]}, {'id': '1726', 'name': 'Bhuvneshwar Kumar', 'role': 'Bowler', 'bat_form': [{'runs': 1, 'balls': 2, 'sr': 50.0, 'status': 'Out', 'score_display': '1'}, {'runs': 3, 'balls': 2, 'sr': 150.0, 'status': 'Out', 'score_display': '3'}], 'bowl_form': [{'wkts': 1, 'avg': 31.0, 'match_figure': '1-31'}, {'wkts': 2, 'avg': 19.0, 'match_figure': '2-38'}, {'wkts': 1, 'avg': 17.0, 'match_figure': '1-17'}, {'wkts': 1, 'avg': 46.0, 'match_figure': '1-46'}, {'wkts': 1, 'avg': 43.0, 'match_figure': '1-43'}]}, {'id': '1447073', 'name': 'Abhinandan Singh', 'role': 'Bowler', 'bat_form': [], 'bowl_form': [{'wkts': 1, 'avg': 38.0, 'match_figure': '1-38'}]}, {'id': '8554', 'name': 'Jacob Duffy', 'role': 'Bowler', 'bat_form': [{'runs': 3, 'balls': 5, 'sr': 60.0, 'status': 'Out', 'score_display': '3'}], 'bowl_form': [{'wkts': 3, 'avg': 7.33, 'match_figure': '3-22'}, {'wkts': 0, 'avg': 42, 'match_figure': '0-42'}, {'wkts': 1, 'avg': 25.0, 'match_figure': '1-25'}, {'wkts': 0, 'avg': 50, 'match_figure': '0-50'}, {'wkts': 1, 'avg': 16.0, 'match_figure': '1-16'}]}, {'id': '8271', 'name': 'Sanju Samson', 'role': 'WK-Batsman', 'bat_form': [{'runs': 7, 'balls': 7, 'sr': 100.0, 'status': 'Out', 'score_display': '7'}, {'runs': 6, 'balls': 7, 'sr': 85.71, 'status': 'Out', 'score_display': '6'}, {'runs': 89, 'balls': 46, 'sr': 193.48, 'status': 'Out', 'score_display': '89'}, {'runs': 89, 'balls': 42, 'sr': 211.9, 'status': 'Out', 'score_display': '89'}, {'runs': 97, 'balls': 50, 'sr': 194.0, 'status': 'Not Out', 'score_display': '97*'}], 'bowl_form': []}, {'id': '11813', 'name': 'Ruturaj Gaikwad', 'role': 'Batsman', 'bat_form': [{'runs': 28, 'balls': 22, 'sr': 127.27, 'status': 'Out', 'score_display': '28'}, {'runs': 6, 'balls': 11, 'sr': 54.55, 'status': 'Out', 'score_display': '6'}], 'bowl_form': []}, {'id': '1431163', 'name': 'Ayush Mhatre', 'role': 'Batsman', 'bat_form': [{'runs': 73, 'balls': 43, 'sr': 169.77, 'status': 'Out', 'score_display': '73'}, {'runs': 0, 'balls': 1, 'sr': 0.0, 'status': 'Out', 'score_display': '0'}, {'runs': 34, 'balls': 17, 'sr': 200.0, 'status': 'Out', 'score_display': '34'}, {'runs': 43, 'balls': 20, 'sr': 215.0, 'status': 'Out', 'score_display': '43'}, {'runs': 0, 'balls': 2, 'sr': 0.0, 'status': 'Out', 'score_display': '0'}], 'bowl_form': []}, {'id': '9429', 'name': 'Sarfaraz Khan', 'role': 'Batsman', 'bat_form': [{'runs': 32, 'balls': 12, 'sr': 266.67, 'status': 'Out', 'score_display': '32'}, {'runs': 17, 'balls': 12, 'sr': 141.67, 'status': 'Out', 'score_display': '17'}], 'bowl_form': [{'wkts': 0, 'avg': 6, 'match_figure': '0-6'}]}, {'id': '11195', 'name': 'Shivam Dube', 'role': 'Batting Allrounder', 'bat_form': [{'runs': 45, 'balls': 27, 'sr': 166.67, 'status': 'Not Out', 'score_display': '45*'}, {'runs': 6, 'balls': 4, 'sr': 150.0, 'status': 'Out', 'score_display': '6'}, {'runs': 26, 'balls': 8, 'sr': 325.0, 'status': 'Not Out', 'score_display': '26*'}, {'runs': 43, 'balls': 25, 'sr': 172.0, 'status': 'Out', 'score_display': '43'}, {'runs': 8, 'balls': 4, 'sr': 200.0, 'status': 'Not Out', 'score_display': '8*'}], 'bowl_form': [{'wkts': 0, 'avg': 22, 'match_figure': '0-22'}, {'wkts': 1, 'avg': 46.0, 'match_figure': '1-46'}, {'wkts': 1, 'avg': 32.0, 'match_figure': '1-32'}, {'wkts': 2, 'avg': 17.5, 'match_figure': '2-35'}, {'wkts': 1, 'avg': 11.0, 'match_figure': '1-11'}]}, {'id': '51417', 'name': 'Prashant Veer', 'role': 'Bowling Allrounder', 'bat_form': [{'runs': 6, 'balls': 7, 'sr': 85.71, 'status': 'Not Out', 'score_display': '6*'}], 'bowl_form': []}, {'id': '8512', 'name': 'Jamie Overton', 'role': 'Bowling Allrounder', 'bat_form': [{'runs': 43, 'balls': 36, 'sr': 119.44, 'status': 'Out', 'score_display': '43'}, {'runs': 2, 'balls': 3, 'sr': 66.67, 'status': 'Not Out', 'score_display': '2*'}, {'runs': 0, 'balls': 3, 'sr': 0.0, 'status': 'Out', 'score_display': '0'}, {'runs': 10, 'balls': 10, 'sr': 100.0, 'status': 'Not Out', 'score_display': '10*'}, {'runs': 15, 'balls': 9, 'sr': 166.67, 'status': 'Out', 'score_display': '15'}], 'bowl_form': [{'wkts': 0, 'avg': 14, 'match_figure': '0-14'}, {'wkts': 0, 'avg': 36, 'match_figure': '0-36'}, {'wkts': 2, 'avg': 13.0, 'match_figure': '2-26'}, {'wkts': 1, 'avg': 13.0, 'match_figure': '1-13'}, {'wkts': 3, 'avg': 6.0, 'match_figure': '3-18'}]}, {'id': '15452', 'name': 'Noor Ahmad', 'role': 'Bowler', 'bat_form': [{'runs': 1, 'balls': 9, 'sr': 11.11, 'status': 'Out', 'score_display': '1'}, {'runs': 15, 'balls': 9, 'sr': 166.67, 'status': 'Not Out', 'score_display': '15*'}], 'bowl_form': [{'wkts': 0, 'avg': 38, 'match_figure': '0-38'}, {'wkts': 0, 'avg': 24, 'match_figure': '0-24'}, {'wkts': 0, 'avg': 35, 'match_figure': '0-35'}, {'wkts': 0, 'avg': 35, 'match_figure': '0-35'}, {'wkts': 0, 'avg': 32, 'match_figure': '0-32'}]}, {'id': '14598', 'name': 'Anshul Kamboj', 'role': 'Bowling Allrounder', 'bat_form': [{'runs': 7, 'balls': 10, 'sr': 70.0, 'status': 'Not Out', 'score_display': '7*'}, {'runs': 5, 'balls': 3, 'sr': 166.67, 'status': 'Not Out', 'score_display': '5*'}], 'bowl_form': [{'wkts': 2, 'avg': 21.5, 'match_figure': '2-43'}, {'wkts': 2, 'avg': 13.5, 'match_figure': '2-27'}, {'wkts': 3, 'avg': 4.33, 'match_figure': '3-13'}, {'wkts': 1, 'avg': 21.0, 'match_figure': '1-21'}]}, {'id': '9067', 'name': 'Matt Henry', 'role': 'Bowler', 'bat_form': [{'runs': 5, 'balls': 7, 'sr': 71.43, 'status': 'Out', 'score_display': '5'}, {'runs': 0, 'balls': 1, 'sr': 0.0, 'status': 'Out', 'score_display': '0'}, {'runs': 1, 'balls': 1, 'sr': 100.0, 'status': 'Not Out', 'score_display': '1*'}], 'bowl_form': [{'wkts': 2, 'avg': 27.0, 'match_figure': '2-54'}, {'wkts': 0, 'avg': 40, 'match_figure': '0-40'}, {'wkts': 1, 'avg': 49.0, 'match_figure': '1-49'}, {'wkts': 2, 'avg': 17.0, 'match_figure': '2-34'}, {'wkts': 1, 'avg': 19.0, 'match_figure': '1-19'}]}, {'id': '10952', 'name': 'Khaleel Ahmed', 'role': 'Bowler', 'bat_form': [], 'bowl_form': [{'wkts': 0, 'avg': 28, 'match_figure': '0-28'}, {'wkts': 0, 'avg': 17, 'match_figure': '0-17'}, {'wkts': 1, 'avg': 17.0, 'match_figure': '1-17'}, {'wkts': 0, 'avg': 35, 'match_figure': '0-35'}, {'wkts': 0, 'avg': 14, 'match_figure': '0-14'}]}]\n\n=== END SNAPSHOT ===\n"
+        },
+        "timestamp": "2026-04-05T14:27:30.655349"
+    },
+    "weather_Bengaluru_2026-04-05": {
+        "data": "Weather in Bengaluru on 2026-04-05: Temperature: 27.7\u00b0C, Conditions: Partially cloudy. Summary: Partly cloudy throughout the day.",
+        "timestamp": "2026-04-05T14:27:44.255415"
+    },
+    "pitch_venue_name_m.chinnaswamy_stadium_+_city_bengaluru": {
+        "data": "{'query': 'pitch report for venue_name M.Chinnaswamy Stadium + city Bengaluru cricket stadium, current conditions, bowling or batting friendly', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://indianexpress.com/article/sports/cricket/ipl-2026-rcb-vs-srh-m-chinnaswamy-stadium-pitch-weather-forecast-report-royal-challengers-bangalore-vs-sunrisers-hyderabad-10605340/', 'title': 'IPL 2026, RCB vs SRH: What will conditions be like for Royal ...', 'content': 'M Chinnaswamy Stadium, Bengaluru Pitch Report. The playing surface of the M Chinnaswamy Stadium has been known to provide a good batting', 'score': 0.8018276, 'raw_content': None}, {'url': 'https://www.perfectlineup.in/cricket-ground/m.chinnaswamy-stadium-bengaluru/246', 'title': 'M.chinnaswamy Stadium Bengaluru Pitch Report - Perfect Lineup', 'content': 'Shows how the pitch at m.chinnaswamy stadium bengaluru supports batsmen or bowlers in T20 Internationals. Total Matches Played. 40.', 'score': 0.7485182, 'raw_content': None}, {'url': 'https://www.yardbarker.com/cricket/articles/rcb_vs_srh_ipl_2026_m_chinnaswamy_stadium_pitch_report_and_bengaluru_weather_forecast/s1_17756_43656404', 'title': 'RCB vs SRH, IPL 2026: M. Chinnaswamy Stadium Pitch Report and ...', 'content': 'The pitch is typically flat, offering good bounce and carry, which allows stroke-makers to play their shots with confidence once they settle in.', 'score': 0.6862234, 'raw_content': None}, {'url': 'https://zeenews.india.com/cricket/rcb-vs-srh-weather-pitch-report-for-ipl-2026-opener-bengaluru-weather-chinnaswamy-pitch-hint-at-200-runs-3031217.html', 'title': 'RCB vs SRH weather & pitch report for IPL 2026 opener - Zee News', 'content': \"Pitch Report: Why Chinnaswamy Is a Batter's Paradise \u00b7 Flat surface with consistent bounce \u00b7 Short boundaries amplify scoring \u00b7 Ball comes nicely\", 'score': 0.650934, 'raw_content': None}, {'url': 'https://www.youtube.com/watch?v=-O3Pz5gybO0', 'title': 'RCB vs SRH, IPL 2026 Match 01 Pitch Report - YouTube', 'content': 'RCB vs SRH, IPL 2026 Match 01 Pitch Report: M.Chinnaswamy Stadium Pitch Report | Bengaluru Pitch Report M.Chinnaswamy Stadium, Bengaluru', 'score': 0.62879556, 'raw_content': None}], 'response_time': 1.69, 'request_id': '8cb7d4a5-f25c-40f2-9148-d2eceb98c3d5'}",
+        "timestamp": "2026-04-05T14:29:35.555918"
+    },
+    "eco_match_context_royal_challengers_bengaluru_vs_chennai_super_kings": {
+        "data": {
+            "context": "\n=== MATCH REASONING SNAPSHOT ===\nGenerated at: 2026-04-05 19:59:39 IST\nMatch: Royal Challengers Bengaluru vs Chennai Super Kings\n\n\n--- PLAYING SQUADS ---\n[CACHED] {'match_id': '149721', 'teams': {'team1': {'name': 'Royal Challengers Bengaluru', 'id': 59, 'players': [{'id': '10479', 'name': 'Philip Salt', 'role': 'WK-Batsman'}, {'id': '1413', 'name': 'Virat Kohli', 'role': 'Batsman'}, {'id': '13088', 'name': 'Devdutt Padikkal', 'role': 'Batsman'}, {'id': '10636', 'name': 'Rajat Patidar', 'role': 'Batsman'}, {'id': '10214', 'name': 'Jitesh Sharma', 'role': 'WK-Batsman'}, {'id': '13169', 'name': 'Tim David', 'role': 'Batsman'}, {'id': '13646', 'name': 'Romario Shepherd', 'role': 'Bowling Allrounder'}, {'id': '11311', 'name': 'Krunal Pandya', 'role': 'Batting Allrounder'}, {'id': '1726', 'name': 'Bhuvneshwar Kumar', 'role': 'Bowler'}, {'id': '1447073', 'name': 'Abhinandan Singh', 'role': 'Bowler'}, {'id': '8554', 'name': 'Jacob Duffy', 'role': 'Bowler'}]}, 'team2': {'name': 'Chennai Super Kings', 'id': 58, 'players': [{'id': '8271', 'name': 'Sanju Samson', 'role': 'WK-Batsman'}, {'id': '11813', 'name': 'Ruturaj Gaikwad', 'role': 'Batsman'}, {'id': '1431163', 'name': 'Ayush Mhatre', 'role': 'Batsman'}, {'id': '9429', 'name': 'Sarfaraz Khan', 'role': 'Batsman'}, {'id': '11195', 'name': 'Shivam Dube', 'role': 'Batting Allrounder'}, {'id': '51417', 'name': 'Prashant Veer', 'role': 'Bowling Allrounder'}, {'id': '8512', 'name': 'Jamie Overton', 'role': 'Bowling Allrounder'}, {'id': '15452', 'name': 'Noor Ahmad', 'role': 'Bowler'}, {'id': '14598', 'name': 'Anshul Kamboj', 'role': 'Bowling Allrounder'}, {'id': '9067', 'name': 'Matt Henry', 'role': 'Bowler'}, {'id': '10952', 'name': 'Khaleel Ahmed', 'role': 'Bowler'}]}}}\n\n--- WEATHER CONDITIONS ---\nWeather in Bengaluru on 2026-04-05: Temperature: 27.7\u00b0C, Conditions: Partially cloudy. Summary: Partly cloudy throughout the day.\n\n--- PITCH ANALYSIS ---\n{'query': 'pitch report for venue_name M.Chinnaswamy Stadium + city Bengaluru cricket stadium, current conditions, bowling or batting friendly', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://indianexpress.com/article/sports/cricket/ipl-2026-rcb-vs-srh-m-chinnaswamy-stadium-pitch-weather-forecast-report-royal-challengers-bangalore-vs-sunrisers-hyderabad-10605340/', 'title': 'IPL 2026, RCB vs SRH: What will conditions be like for Royal ...', 'content': 'M Chinnaswamy Stadium, Bengaluru Pitch Report. The playing surface of the M Chinnaswamy Stadium has been known to provide a good batting', 'score': 0.8018276, 'raw_content': None}, {'url': 'https://www.perfectlineup.in/cricket-ground/m.chinnaswamy-stadium-bengaluru/246', 'title': 'M.chinnaswamy Stadium Bengaluru Pitch Report - Perfect Lineup', 'content': 'Shows how the pitch at m.chinnaswamy stadium bengaluru supports batsmen or bowlers in T20 Internationals. Total Matches Played. 40.', 'score': 0.7485182, 'raw_content': None}, {'url': 'https://www.yardbarker.com/cricket/articles/rcb_vs_srh_ipl_2026_m_chinnaswamy_stadium_pitch_report_and_bengaluru_weather_forecast/s1_17756_43656404', 'title': 'RCB vs SRH, IPL 2026: M. Chinnaswamy Stadium Pitch Report and ...', 'content': 'The pitch is typically flat, offering good bounce and carry, which allows stroke-makers to play their shots with confidence once they settle in.', 'score': 0.6862234, 'raw_content': None}, {'url': 'https://zeenews.india.com/cricket/rcb-vs-srh-weather-pitch-report-for-ipl-2026-opener-bengaluru-weather-chinnaswamy-pitch-hint-at-200-runs-3031217.html', 'title': 'RCB vs SRH weather & pitch report for IPL 2026 opener - Zee News', 'content': \"Pitch Report: Why Chinnaswamy Is a Batter's Paradise \u00b7 Flat surface with consistent bounce \u00b7 Short boundaries amplify scoring \u00b7 Ball comes nicely\", 'score': 0.650934, 'raw_content': None}, {'url': 'https://www.youtube.com/watch?v=-O3Pz5gybO0', 'title': 'RCB vs SRH, IPL 2026 Match 01 Pitch Report - YouTube', 'content': 'RCB vs SRH, IPL 2026 Match 01 Pitch Report: M.Chinnaswamy Stadium Pitch Report | Bengaluru Pitch Report M.Chinnaswamy Stadium, Bengaluru', 'score': 0.62879556, 'raw_content': None}], 'response_time': 1.69, 'request_id': '8cb7d4a5-f25c-40f2-9148-d2eceb98c3d5'}\n\n=== END SNAPSHOT ===\n"
+        },
+        "timestamp": "2026-04-05T14:29:39.355223"
+    }
+}

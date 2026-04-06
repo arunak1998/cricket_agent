@@ -1,1 +1,146 @@
-{}
+{
+    "squad_dict_148973": {
+        "data": {
+            "match_id": "148973",
+            "teams": {
+                "team1": {
+                    "name": "Peshawar Zalmi",
+                    "id": 334,
+                    "players": [
+                        {
+                            "id": "8359",
+                            "name": "Babar Azam",
+                            "role": "Batsman"
+                        },
+                        {
+                            "id": "15038",
+                            "name": "Mohammad Haris",
+                            "role": "WK-Batsman"
+                        },
+                        {
+                            "id": "9494",
+                            "name": "Kusal Mendis",
+                            "role": "WK-Batsman"
+                        },
+                        {
+                            "id": "13170",
+                            "name": "Aaron Hardie",
+                            "role": "Batting Allrounder"
+                        },
+                        {
+                            "id": "1448229",
+                            "name": "Farhan Yousaf",
+                            "role": "Batsman"
+                        },
+                        {
+                            "id": "9551",
+                            "name": "Michael Bracewell",
+                            "role": "Batting Allrounder"
+                        },
+                        {
+                            "id": "1433121",
+                            "name": "Abdul Samad",
+                            "role": "Batsman"
+                        },
+                        {
+                            "id": "31139",
+                            "name": "Aamer Jamal",
+                            "role": "Bowling Allrounder"
+                        },
+                        {
+                            "id": "41169",
+                            "name": "Sufiyan Muqeem",
+                            "role": "Bowler"
+                        },
+                        {
+                            "id": "13791",
+                            "name": "Shoriful Islam",
+                            "role": "Bowler"
+                        },
+                        {
+                            "id": "54199",
+                            "name": "Ali Raza",
+                            "role": "Bowler"
+                        }
+                    ]
+                },
+                "team2": {
+                    "name": "Rawalpindi Pindiz",
+                    "id": 3116,
+                    "players": [
+                        {
+                            "id": "9468",
+                            "name": "Mohammad Rizwan",
+                            "role": "WK-Batsman"
+                        },
+                        {
+                            "id": "24061",
+                            "name": "Yasir Khan",
+                            "role": "Batsman"
+                        },
+                        {
+                            "id": "1469086",
+                            "name": "Abdullah Fazal",
+                            "role": "Batsman"
+                        },
+                        {
+                            "id": "9807",
+                            "name": "Kamran Ghulam",
+                            "role": "Batting Allrounder"
+                        },
+                        {
+                            "id": "7990",
+                            "name": "Sam Billings",
+                            "role": "WK-Batsman"
+                        },
+                        {
+                            "id": "10713",
+                            "name": "Daryl Mitchell",
+                            "role": "Batting Allrounder"
+                        },
+                        {
+                            "id": "9902",
+                            "name": "Amad Butt",
+                            "role": "Bowling Allrounder"
+                        },
+                        {
+                            "id": "13794",
+                            "name": "Rishad Hossain",
+                            "role": "Bowler"
+                        },
+                        {
+                            "id": "14247",
+                            "name": "Naseem Shah",
+                            "role": "Bowler"
+                        },
+                        {
+                            "id": "1917",
+                            "name": "Mohammad Amir",
+                            "role": "Bowler"
+                        },
+                        {
+                            "id": "19631",
+                            "name": "Asif Afridi",
+                            "role": "Bowling Allrounder"
+                        }
+                    ]
+                }
+            }
+        },
+        "timestamp": "2026-03-28T10:11:41.991146"
+    },
+    "weather_Lahore_2026-03-28": {
+        "data": "Weather in Lahore on 2026-03-28: Temperature: 26.4\u00b0C, Conditions: Partially cloudy. Summary: Partly cloudy throughout the day.",
+        "timestamp": "2026-03-28T10:11:43.242779"
+    },
+    "pitch_venue_name_gaddafi_stadium_+_city_lahore": {
+        "data": "{'query': 'current pitch report for cricket match at venue_name Gaddafi Stadium + city Lahore', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.thetopbookies.com/cricket-grounds/gaddafi-stadium-lahore-pitch-report', 'title': 'Gaddafi Stadium, Lahore Pitch Report - TheTopBookies', 'content': 'The pitch at Gaddafi Stadium, Lahore tends to favor the batsmen and the average 1st innings score is 253 runs. Recent Games played at Gaddafi Stadium, Lahore,', 'score': 0.99999475, 'raw_content': None}, {'url': 'https://sportsf1.com/cricket-pitch-report/gaddafi-stadium-lahore', 'title': 'Gaddafi Stadium, Lahore Pitch Report - SportsF1', 'content': 'Pitch Condition. In PSL 2025, the surface is high-scoring, with assistance for both the pacers as well as the spinners. Particularly under lights, batting', 'score': 0.99998796, 'raw_content': None}, {'url': 'https://www.perfectlineup.in/cricket-ground/gaddafi-stadium-lahore/268', 'title': 'Gaddafi Stadium Lahore Pitch Report - Perfect Lineup', 'content': 'Shows how the pitch at gaddafi stadium lahore supports batsmen or bowlers in T20 Internationals. Total Matches Played. 10. Supported Batsmen. 5.', 'score': 0.9999864, 'raw_content': None}, {'url': 'https://www.sportingnews.com/in/cricket/news/gaddafi-stadium-lahore-pitch-report-records-tests-pak-sa-1st-test/54e24219979dbbe8a0d6f190', 'title': 'Gaddafi Stadium, Lahore: Pitch report, records and highest scores in ...', 'content': 'Gaddafi Stadium in Lahore is known for its batting-friendly surface and provide even bounce that encourages stroke-making. The fast outfield', 'score': 0.99998593, 'raw_content': None}, {'url': 'https://crex.com/cricket-news/gaddafi-stadium-lahore-pitch-report-weather-report-for-lahore-qalandars-vs-hyderabad-kingsmen-match-1-psl-2026-69c49a28bc4e0baeebc416fc', 'title': 'Lahore Qalandars vs Hyderabad Kingsmen Weather, Pitch Report ...', 'content': 'Gaddafi Stadium Pitch Report for Lahore Qalandars vs Hyderabad Kingsmen, Match 1, PSL 2026 \u00b7 Average run rate \u00b7 8.67.', 'score': 0.99998355, 'raw_content': None}], 'response_time': 0.58, 'request_id': '3bfb5a7f-d545-47af-a303-7d3e2b24f86c'}",
+        "timestamp": "2026-03-28T10:11:44.778843"
+    },
+    "eco_match_context_rawalpindi_pindiz_vs_peshawar_zalmi": {
+        "data": {
+            "context": "\n=== MATCH REASONING SNAPSHOT ===\nGenerated at: 2026-03-28 15:41:44 IST\nMatch: Rawalpindi Pindiz vs Peshawar Zalmi\n\n\n--- PLAYING SQUADS ---\n{\n  \"match_id\": \"148973\",\n  \"teams\": {\n    \"team1\": {\n      \"name\": \"Peshawar Zalmi\",\n      \"id\": 334,\n      \"players\": [\n        {\n          \"id\": \"8359\",\n          \"name\": \"Babar Azam\",\n          \"role\": \"Batsman\"\n        },\n        {\n          \"id\": \"15038\",\n          \"name\": \"Mohammad Haris\",\n          \"role\": \"WK-Batsman\"\n        },\n        {\n          \"id\": \"9494\",\n          \"name\": \"Kusal Mendis\",\n          \"role\": \"WK-Batsman\"\n        },\n        {\n          \"id\": \"13170\",\n          \"name\": \"Aaron Hardie\",\n          \"role\": \"Batting Allrounder\"\n        },\n        {\n          \"id\": \"1448229\",\n          \"name\": \"Farhan Yousaf\",\n          \"role\": \"Batsman\"\n        },\n        {\n          \"id\": \"9551\",\n          \"name\": \"Michael Bracewell\",\n          \"role\": \"Batting Allrounder\"\n        },\n        {\n          \"id\": \"1433121\",\n          \"name\": \"Abdul Samad\",\n          \"role\": \"Batsman\"\n        },\n        {\n          \"id\": \"31139\",\n          \"name\": \"Aamer Jamal\",\n          \"role\": \"Bowling Allrounder\"\n        },\n        {\n          \"id\": \"41169\",\n          \"name\": \"Sufiyan Muqeem\",\n          \"role\": \"Bowler\"\n        },\n        {\n          \"id\": \"13791\",\n          \"name\": \"Shoriful Islam\",\n          \"role\": \"Bowler\"\n        },\n        {\n          \"id\": \"54199\",\n          \"name\": \"Ali Raza\",\n          \"role\": \"Bowler\"\n        }\n      ]\n    },\n    \"team2\": {\n      \"name\": \"Rawalpindi Pindiz\",\n      \"id\": 3116,\n      \"players\": [\n        {\n          \"id\": \"9468\",\n          \"name\": \"Mohammad Rizwan\",\n          \"role\": \"WK-Batsman\"\n        },\n        {\n          \"id\": \"24061\",\n          \"name\": \"Yasir Khan\",\n          \"role\": \"Batsman\"\n        },\n        {\n          \"id\": \"1469086\",\n          \"name\": \"Abdullah Fazal\",\n          \"role\": \"Batsman\"\n        },\n        {\n          \"id\": \"9807\",\n          \"name\": \"Kamran Ghulam\",\n          \"role\": \"Batting Allrounder\"\n        },\n        {\n          \"id\": \"7990\",\n          \"name\": \"Sam Billings\",\n          \"role\": \"WK-Batsman\"\n        },\n        {\n          \"id\": \"10713\",\n          \"name\": \"Daryl Mitchell\",\n          \"role\": \"Batting Allrounder\"\n        },\n        {\n          \"id\": \"9902\",\n          \"name\": \"Amad Butt\",\n          \"role\": \"Bowling Allrounder\"\n        },\n        {\n          \"id\": \"13794\",\n          \"name\": \"Rishad Hossain\",\n          \"role\": \"Bowler\"\n        },\n        {\n          \"id\": \"14247\",\n          \"name\": \"Naseem Shah\",\n          \"role\": \"Bowler\"\n        },\n        {\n          \"id\": \"1917\",\n          \"name\": \"Mohammad Amir\",\n          \"role\": \"Bowler\"\n        },\n        {\n          \"id\": \"19631\",\n          \"name\": \"Asif Afridi\",\n          \"role\": \"Bowling Allrounder\"\n        }\n      ]\n    }\n  }\n}\n\n--- WEATHER CONDITIONS ---\nWeather in Lahore on 2026-03-28: Temperature: 26.4\u00b0C, Conditions: Partially cloudy. Summary: Partly cloudy throughout the day.\n\n--- PITCH ANALYSIS ---\n{'query': 'current pitch report for cricket match at venue_name Gaddafi Stadium + city Lahore', 'follow_up_questions': None, 'answer': None, 'images': [], 'results': [{'url': 'https://www.thetopbookies.com/cricket-grounds/gaddafi-stadium-lahore-pitch-report', 'title': 'Gaddafi Stadium, Lahore Pitch Report - TheTopBookies', 'content': 'The pitch at Gaddafi Stadium, Lahore tends to favor the batsmen and the average 1st innings score is 253 runs. Recent Games played at Gaddafi Stadium, Lahore,', 'score': 0.99999475, 'raw_content': None}, {'url': 'https://sportsf1.com/cricket-pitch-report/gaddafi-stadium-lahore', 'title': 'Gaddafi Stadium, Lahore Pitch Report - SportsF1', 'content': 'Pitch Condition. In PSL 2025, the surface is high-scoring, with assistance for both the pacers as well as the spinners. Particularly under lights, batting', 'score': 0.99998796, 'raw_content': None}, {'url': 'https://www.perfectlineup.in/cricket-ground/gaddafi-stadium-lahore/268', 'title': 'Gaddafi Stadium Lahore Pitch Report - Perfect Lineup', 'content': 'Shows how the pitch at gaddafi stadium lahore supports batsmen or bowlers in T20 Internationals. Total Matches Played. 10. Supported Batsmen. 5.', 'score': 0.9999864, 'raw_content': None}, {'url': 'https://www.sportingnews.com/in/cricket/news/gaddafi-stadium-lahore-pitch-report-records-tests-pak-sa-1st-test/54e24219979dbbe8a0d6f190', 'title': 'Gaddafi Stadium, Lahore: Pitch report, records and highest scores in ...', 'content': 'Gaddafi Stadium in Lahore is known for its batting-friendly surface and provide even bounce that encourages stroke-making. The fast outfield', 'score': 0.99998593, 'raw_content': None}, {'url': 'https://crex.com/cricket-news/gaddafi-stadium-lahore-pitch-report-weather-report-for-lahore-qalandars-vs-hyderabad-kingsmen-match-1-psl-2026-69c49a28bc4e0baeebc416fc', 'title': 'Lahore Qalandars vs Hyderabad Kingsmen Weather, Pitch Report ...', 'content': 'Gaddafi Stadium Pitch Report for Lahore Qalandars vs Hyderabad Kingsmen, Match 1, PSL 2026 \u00b7 Average run rate \u00b7 8.67.', 'score': 0.99998355, 'raw_content': None}], 'response_time': 0.58, 'request_id': '3bfb5a7f-d545-47af-a303-7d3e2b24f86c'}\n\n=== END SNAPSHOT ===\n"
+        },
+        "timestamp": "2026-03-28T10:11:44.797625"
+    }
+}
