@@ -1,6 +1,6 @@
 import os
 from fastapi import FastAPI, Query, BackgroundTasks
-from main import update_todays_matches, update_agent_responses, update_validator_response
+from main import update_todays_matches, update_agent_responses, update_validator_response,reset_cache_system
 from agents.router import fantasy_team_router
 
 app = FastAPI(title="Fantasy Cricket AI Service")
@@ -48,6 +48,19 @@ async def run_audit(background_tasks: BackgroundTasks):
     return {"status": "Processing", "message": "Leaderboard Validation Started."}
 
 # 5. HEALTH CHECK
+@app.post("/reset_cache_system")
+async def run_scouts(background_tasks: BackgroundTasks):
+    """
+    Triggers the cache reset and background processing.
+    Called by Cloud Scheduler in the evening.
+    """
+    # This adds the function to the background queue so the API responds immediately
+    background_tasks.add_task(reset_cache_system)
+
+    return {
+        "status": "Processing",
+        "message": "Cache reset initiated. Scout Response Loop Started."
+    }
 @app.get("/")
 def health_check():
     return {"status": "Online", "service": "Fantasy-AI-Core"}

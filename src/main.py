@@ -4,6 +4,7 @@ from agents.validator_agent import create_validator_agent
 import gspread
 import json
 from google.auth import default
+from google.cloud import storage
 from config.config import config
 from oauth2client.service_account import ServiceAccountCredentials
 import os
@@ -40,7 +41,7 @@ def get_gspread_client():
 client = get_gspread_client()
 
 # 3. Open your Sheet
-spreadsheet_name = "Cricket_Project_DB."
+spreadsheet_name = "Cricket_Project_DB"
 spreadsheet = client.open(spreadsheet_name)
 import time
 
@@ -124,6 +125,45 @@ def update_agent_responses():
 
     print("💾 Router finishing: Syncing cache to GCS...")
     config.save_to_gcs()
+
+def reset_cache_system():
+    """Resets cache to {} based on environment (Cloud or Local)."""
+    BUCKET_NAME = "cricket_bucket_ak"
+    BLOB_NAME = "cricket_cache.json"
+    LOCAL_CACHE = "/mnt/c/workspaces/agent_project/src/tmp/cricket_cache.json"
+    # Local only credentials
+    CREDENTIALS_PATH = "/mnt/c/workspaces/agent_project/src/credentials.json"
+
+    empty_data = "{}"
+    is_cloud = os.environ.get("PROD_RUN", "").lower() == "true"
+
+    if is_cloud:
+        # --- CLOUD RESET (No JSON path needed) ---
+        try:
+            # Cloud environment handles authentication automatically
+            client = storage.Client()
+            bucket = client.bucket(BUCKET_NAME)
+            blob = bucket.blob(BLOB_NAME)
+
+            blob.upload_from_string(data=empty_data, content_type='application/json')
+            print(f"✅ [PROD] GCS Cache reset successfully in {BUCKET_NAME}")
+        except Exception as e:
+            print(f"❌ [PROD] GCS reset failed: {e}")
+    else:
+        # --- LOCAL RESET ---
+        try:
+            # Set credentials only for local development
+            if os.path.exists(CREDENTIALS_PATH):
+                os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = CREDENTIALS_PATH
+
+            # Ensure folder exists
+            os.makedirs(os.path.dirname(LOCAL_CACHE), exist_ok=True)
+
+            with open(LOCAL_CACHE, 'w') as f:
+                f.write(empty_data)
+            print(f"🧹 [LOCAL] Local file cleared: {LOCAL_CACHE}")
+        except Exception as e:
+            print(f"❌ [LOCAL] Reset failed: {e}")
 def update_validator_response():
     """
     Fetches match_id from Agent_Response sheet, runs the Validator Agent,
@@ -198,5 +238,5 @@ def update_todays_matches():
     except Exception as e:
         print(f"❌ Error during match sync: {e}")
         return f"Error: {e}"
-if __name__ == "__main__":
-    update_agent_responses()
+# if __name__ == "__main__":
+#     update_agent_responses()

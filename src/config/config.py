@@ -227,7 +227,7 @@ class Config:
             # Google Sheets configuration
             self.GOOGLE_SHEETS_ENABLED = False
             self.GOOGLE_SERVICE_ACCOUNT_FILE = "/mnt/c/workspaces/agent_project/src/credentials.json"
-            self.GOOGLE_SPREADSHEET_NAME = "Cricket_Project_DB."
+            self.GOOGLE_SPREADSHEET_NAME = "Cricket_Project_DB"
             self.spreadsheet = None  # Will be initialized if service account exists
             scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
 
